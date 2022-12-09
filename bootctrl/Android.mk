@@ -8,7 +8,7 @@ LOCAL_SHARED_LIBRARIES += liblog libgptutils libcutils
 LOCAL_HEADER_LIBRARIES := libhardware_headers libsystem_headers
 LOCAL_SRC_FILES := boot_control.cpp
 LOCAL_MODULE_RELATIVE_PATH := hw
-LOCAL_MODULE := bootctrl.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := bootctrl.mt8761
 LOCAL_MODULE_OWNER := mtk
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
@@ -20,5 +20,5 @@ LOCAL_CFLAGS += -Wall -Werror
 LOCAL_SHARED_LIBRARIES += liblog libgptutils libcutils
 LOCAL_HEADER_LIBRARIES := libhardware_headers libsystem_headers
 LOCAL_SRC_FILES := boot_control.cpp
-LOCAL_MODULE := bootctrl.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE := bootctrl.mt8761
 include $(BUILD_STATIC_LIBRARY)
