@@ -50,3 +50,7 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+    
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/recovery/root/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
+    $(LOCAL_PATH)/recovery/root/ueventd.mt8167.rc:root/ueventd.mt8167.rc
