@@ -53,4 +53,4 @@ PRODUCT_PACKAGES += \
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
-    $(LOCAL_PATH)/recovery/root/ueventd.mt8167.rc:root/ueventd.rc
+    $(LOCAL_PATH)/recovery/root/ueventd.rc:root/ueventd.rc
