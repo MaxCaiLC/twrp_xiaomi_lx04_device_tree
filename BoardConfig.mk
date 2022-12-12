@@ -41,7 +41,7 @@ TARGET_NO_BOOTLOADER := true
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216 # This is the maximum known partition size, but it can be higher, so we just omit it
+#BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216 # This is the maximum known partition size, but it can be higher, so we just omit it
 BOARD_SYSTEMIMAGE_PARTITION_TYPE := ext4
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -100,9 +100,7 @@ TW_CRYPTO_USE_SYSTEM_VOLD := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-TW_EXCLUDE_SUPERSU := true
 TW_DEFAULT_LANGUAGE := zh_cn
-TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS := true
 TW_IGNORE_MISC_WIPE_DATA := true
@@ -111,24 +109,17 @@ TW_NO_EXFAT := false
 TW_USE_TOOLBOX := true
 TW_FLASH_FROM_STORAGE := true
 TW_NEW_ION_HEAP := true
-TW_INCLUDE_FB2PNG := true
 TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_NO_USB_STORAGE := false
-TW_EXCLUDE_TWRPAPP := true
 TW_BACKUP_DATA_MEDIA := true
 TWHAVE_SELINUX := true
 TWRP_INCLUDE_LOGCAT := true
 #TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_EXCLUDE_MTP := true
-TWRP_INCLUDE_LOGCAT := true
 
 #Recovery
 BOARD_USES_RECOVERY_AS_ROOT := true
 BOARD_HAS_LARGE_FILESYSTEM := true
-BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_NO_RECOVERY := true
-TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
-TARGET_USERIMAGES_USE_EXT4 := true
-TARGET_USERIMAGES_USE_F2FS := true
 
 
