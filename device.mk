@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     otapreopt_script \
     cppreopts.sh \
     update_engine \
-    update_engine_sideload
+     $(LOCAL_PATH)/recovery/root/sbin/update_engine_sideload
     
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
