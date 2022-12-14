@@ -1,5 +1,5 @@
 # mount point       fstype    device                                                                flags
-/system_a           ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="system_a";backup=1;
+/system_a           ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_a";backup=1;
 /system_a_image     emmc      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_a_image";backup=1;flashimg=1;
 /system_b           ext4      /dev/block/platform/bootdevice/by-name/system_b                       flags=display="System_b";backup=1;
 /system_b_image     emmc      /dev/block/platform/bootdevice/by-name/system_b                       flags=display="System_b_image";backup=1;flashimg=1;
@@ -23,4 +23,4 @@
 /kb                 emmc      /dev/block/platform/bootdevice/by-name/kb                             flags=display="Kb";
 /dkb                emmc      /dev/block/platform/bootdevice/by-name/dkb                            flags=display="Dkb";
 /userdata           emmc      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Userdata";backup=1;flashimg=1;
-/system_root        ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="system_root";
+/system_root        ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_root";
