@@ -7,7 +7,7 @@
 /vendor_a_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor image";backup=1;flashimg=1;
 /odmdtbo_a          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_a                      flags=display="Odmdtbo_a";
 /odmdtbo_b          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_b                      flags=display="Odmdtbo_b";
-/data               emmc      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
+/userdata           ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";backup=1;flashimg=1;
 /nvram              emmc      /dev/block/platform/bootdevice/by-name/nvram                          flags=display="Nvram";
 /proinfo            emmc      /dev/block/platform/bootdevice/by-name/proinfo                        flags=display="Proinfo";
 /bootloader         emmc      /dev/block/platform/bootdevice/by-name/lk                             flags=display="Bootloader";
@@ -22,5 +22,4 @@
 /tee2               emmc      /dev/block/platform/bootdevice/by-name/tee2                           flags=display="Tee2";
 /kb                 emmc      /dev/block/platform/bootdevice/by-name/kb                             flags=display="Kb";
 /dkb                emmc      /dev/block/platform/bootdevice/by-name/dkb                            flags=display="Dkb";
-/userdata           emmc      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Userdata";backup=1;flashimg=1;
 /system_root        ext4      /dev/block/platform/bootdevice/by-name/system_a                       flags=display="System_root";
