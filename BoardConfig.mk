@@ -88,6 +88,12 @@ RECOVERY_TOUCHSCREEN_FLIP_Y := true
 TWRP_INCLUDE_LOGCAT := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+BOARD_HAS_NO_REAL_SDCARD := true
+BOARD_SUPPRESS_SECURE_ERASE := true
+TW_INTERNAL_STORAGE_PATH := "/data/media/0"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
+TW_EXTERNAL_STORAGE_PATH := "/sdcard"
+TW_EXTERNAL_STORAGE_MOUNT_POINT :="sdcard"
 
 #Recovery
 BOARD_USES_RECOVERY_AS_ROOT := false
