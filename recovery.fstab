@@ -7,7 +7,7 @@
 /vendor_a_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor image";backup=1;flashimg=1;
 /odmdtbo_a          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_a                      flags=display="Odmdtbo_a";
 /odmdtbo_b          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_b                      flags=display="Odmdtbo_b";
-/data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
+/data               emmc      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
 /nvram              emmc      /dev/block/platform/bootdevice/by-name/nvram                          flags=display="Nvram";
 /proinfo            emmc      /dev/block/platform/bootdevice/by-name/proinfo                        flags=display="Proinfo";
 /bootloader         emmc      /dev/block/platform/bootdevice/by-name/lk                             flags=display="Bootloader";
