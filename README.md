@@ -1,4 +1,3 @@
-# twrp_xiomi_lx04_device_tree
 XiaoMi XiaoAiTongXue LX04
 ===============
 ```
