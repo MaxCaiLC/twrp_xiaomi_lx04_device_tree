@@ -98,7 +98,7 @@ TW_CRYPTO_USE_SYSTEM_VOLD := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 128
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-TW_EXCLUDE_SUPERSU := true
+#TW_EXCLUDE_SUPERSU := true
 TW_DEFAULT_LANGUAGE := zh_cn
 #TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_FUSE_EXFAT := true
@@ -117,7 +117,7 @@ TW_BACKUP_DATA_MEDIA := true
 TWHAVE_SELINUX := true
 TWRP_INCLUDE_LOGCAT := true
 #TW_DEFAULT_EXTERNAL_STORAGE := true
-TW_EXCLUDE_MTP := true
+#TW_EXCLUDE_MTP := true
 
 #Recovery
 BOARD_USES_RECOVERY_AS_ROOT := false
