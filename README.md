@@ -5,7 +5,7 @@ By : MaxCaiLC & FatdeadPanda
 ```
 The LX04 (codename _"mi_lx04"_) is a Smart speaker from XiaoMi.
 
-![Picture](https://raw.githubusercontent.com/mouZhe/twrp_device_xiaomi_mi_lx04/main/device.jpg)
+![Picture](https://file-fatdeadpanda.netlify.app/mi_lx04.jpg)
 
 This is a Minimal Device Tree for building TWRP for XiaoMi XiaoAiTongXue LX04 (Codename: mi_lx04). I used TWRP by multirom and TWRP for Asus Zenpad 3S 10 from rakomancha to finally build a working tree for XiaoMi XiaoAiTongXue LX04.
 
