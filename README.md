@@ -3,7 +3,7 @@ XiaoMi XiaoAiTongXue LX04
 ```
 By : MaxCaiLC & FatdeadPanda
 ```
-The LX04 (codename _"mi_lx04"_) is a Smart speaker from XiaoMi.
+The LX04 (codename _"lx04"_) is a Smart speaker from XiaoMi.
 
 ![Picture](https://file-fatdeadpanda.netlify.app/mi_lx04.jpg)
 
@@ -46,7 +46,7 @@ Build your recovery:
 
 $ source build/envsetup.sh
 
-& lunch mi_lx04-eng
+& lunch omni_lx04-eng
 
 make clean && make recoveryimage
 ```
