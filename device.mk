@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/mi_lx04
+LOCAL_PATH := device/xiaomi/lx04
 
 # A/B
 AB_OTA_PARTITIONS += \
