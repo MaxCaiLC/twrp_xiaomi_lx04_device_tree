@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/mi_lx04
+DEVICE_PATH := device/xiaomi/lx04
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -29,7 +29,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mi_lx04
+TARGET_OTA_ASSERT_DEVICE := lx04
 
 # A/B
 AB_OTA_UPDATER := true
@@ -64,10 +64,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mi_lx04
-TARGET_KERNEL_CONFIG := mi_lx04_defconfig
+#TARGET_KERNEL_ARCH := arm
+#TARGET_KERNEL_HEADER_ARCH := arm
+#TARGET_KERNEL_SOURCE := kernel/xiaomi/mi_lx04
+#TARGET_KERNEL_CONFIG := mi_lx04_defconfig
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
