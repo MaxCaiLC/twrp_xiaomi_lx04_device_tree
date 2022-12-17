@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_mi_lx04.mk
+     $(LOCAL_DIR)/omni_lx04.mk
