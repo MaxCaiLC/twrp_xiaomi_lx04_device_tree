@@ -15,23 +15,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-#SHRP's Flags
-SHRP_DEVICE_CODE := lx04
-SHRP_PATH := device/xiaomi/mi_lx04
-SHRP_MAINTAINER := MaxCaiLC
-SHRP_REC_TYPE := SAR
-SHRP_DEVICE_TYPE := A/B
-SHRP_REC := /dev/block/bootdevice/by-name/boot_a
-SHRP_AB := true
-SHRP_NO_SAR_AUTOMOUNT := true
-SHRP_LITE := true
-#SHRP's Addon
-SHRP_SKIP_DEFAULT_ADDON_1 := true
-SHRP_SKIP_DEFAULT_ADDON_2 := true
-SHRP_SKIP_DEFAULT_ADDON_3 := true
-SHRP_SKIP_DEFAULT_ADDON_4 := true
-SHRP_EXCLUDE_MAGISK_FLASH := true
-
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
