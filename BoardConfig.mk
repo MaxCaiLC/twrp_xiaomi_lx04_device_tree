@@ -54,8 +54,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 buildvariant=userdebug veritykeyid=id:7e4333f9bba00adfe0ede979e28ed1920492b40f
-TARGET_PREBUILT_KERNEL := device/xiaomi/mi_lx04/prebuilt/zImage-dtb
+BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,32N2 buildvariant=userdebug veritykeyid=id:81ae03131abda46ca6c0b62793c7590985836ed1
+TARGET_PREBUILT_KERNEL := device/xiaomi/lx04/prebuilt/zImage-dtb
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x15000000
@@ -66,8 +66,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 #TARGET_KERNEL_ARCH := arm
 #TARGET_KERNEL_HEADER_ARCH := arm
-#TARGET_KERNEL_SOURCE := kernel/xiaomi/mi_lx04
-#TARGET_KERNEL_CONFIG := mi_lx04_defconfig
+#TARGET_KERNEL_SOURCE := kernel/xiaomi/lx04
+#TARGET_KERNEL_CONFIG := lx04_defconfig
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
