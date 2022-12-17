@@ -16,6 +16,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH := device/xiaomi/mi_lx04
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
