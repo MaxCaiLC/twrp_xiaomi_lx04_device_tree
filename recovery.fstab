@@ -6,7 +6,8 @@
 /vendor_a           ext4      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor_a";backup=1;
 /vendor_a_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_a                       flags=display="Vendor_image_a";backup=1;flashimg=1;
 /vendor_b           ext4      /dev/block/platform/bootdevice/by-name/vendor_b                       flags=display="Vendor_b";backup=1;
-/vendor_b_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_b                       flags=display="Vendor_image_b";backup=1;flashimg=1;/odmdtbo_a          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_a                      flags=display="Odmdtbo_a";
+/vendor_b_image     emmc      /dev/block/platform/bootdevice/by-name/vendor_b                       flags=display="Vendor_image_b";backup=1;flashimg=1;
+/odmdtbo_a          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_a                      flags=display="Odmdtbo_a";
 /odmdtbo_b          emmc      /dev/block/platform/bootdevice/by-name/odmdtbo_b                      flags=display="Odmdtbo_b";
 /data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";backup=1;flashimg=1;
 /nvram              emmc      /dev/block/platform/bootdevice/by-name/nvram                          flags=display="Nvram";
