@@ -54,6 +54,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/init.recovery.mt8167.rc:root/init.recovery.mt8167.rc \
     $(LOCAL_PATH)/recovery/root/init.recovery.service.rc:root/init.recovery.service.rc \
     $(LOCAL_PATH)/recovery/root/ueventd.rc:root/ueventd.mt8167.rc
-
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
