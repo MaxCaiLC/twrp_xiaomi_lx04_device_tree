@@ -87,19 +87,16 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_USES_LOGD := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 TW_THEME := portrait_hdpi
+TW_SCREEN_BLANK_ON_BOOT := true
 
 #TWRP mount poiunt
-TW_INTERNAL_STORAGE_PATH := "/data/media/0"
-TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
-TW_EXTERNAL_STORAGE_PATH := "/sdcard"
-TW_EXTERNAL_STORAGE_MOUNT_POINT :="sdcard"
+TW_INTERNAL_STORAGE_PATH := "/sdcard"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 
 #Extra Configs
 TW_INCLUDE_CRYPTO := true
 TW_CRYPTO_USE_SYSTEM_VOLD := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_MAX_BRIGHTNESS := 4095
-TW_DEFAULT_BRIGHTNESS := 2048
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXCLUDE_SUPERSU := true
@@ -109,7 +106,7 @@ TW_INCLUDE_NTFS_3G := true
 TW_NEW_ION_HEAP := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_REPACKTOOLS := true
-
+TW_INPUT_BLACKLIST := "hbtp_vm"
 #Recovery
-BOARD_USES_RECOVERY_AS_ROOT := true
+BOARD_USES_RECOVERY_AS_ROOT := fa'l'se
 
